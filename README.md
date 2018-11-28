@@ -1,7 +1,7 @@
 # Status: Ongoing
 ## Todo
-- Add `react-router-dom`
 - Add `enzyme`
+- Add ErrorBoundary component
 - Maybe add `redux-form`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

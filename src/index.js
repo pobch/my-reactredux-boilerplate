@@ -9,10 +9,7 @@ import reducers from './reducers'
 import './index.css'
 import App from './App'
 
-const store = createStore(
-  reducers,
-  composeWithDevTools(applyMiddleware(reduxThunk))
-)
+const store = createStore(reducers, composeWithDevTools(applyMiddleware(reduxThunk)))
 
 ReactDOM.render(
   <Provider store={store}>
